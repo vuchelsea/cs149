@@ -1,0 +1,16 @@
+ 1002  cd ~
+ 1003  cd Desktop/
+ 1004  ls -latr; mkdir cs149
+ 1005  cd cs149
+ 1006  git init
+ 1007  git remote add origin https://github.com/vuchelsea/cs149.git
+ 1008  git config --global user.chelsea.vu@sjsu.edu
+ 1009  git config --global user.email chelsea.vu@sjsu.edu
+ 1010  git confit --global user.name chelseavu
+ 1011  git config --global user.name chelseavu
+ 1012  mkdir WS_bonus
+ 1013  cd WS_bonus
+ 1014  git add .
+ 1015  wget -0 out.pdf https://tinyurl.com/yy94jltt
+ 1016  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1017  ls -latr
