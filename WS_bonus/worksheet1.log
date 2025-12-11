@@ -1,0 +1,52 @@
+ 1043  cd ~
+ 1044  git clone git://g.csail.mit.edu/xv6-labs-2023
+ 1045  cd xv6-labs-2023
+ 1046  git commit -am 'my solution for util lab exercise 1'
+ 1047  make qemu
+ 1048  ls
+ 1049  gmake TOOLPREFIX= qemu
+ 1050  xcode-select --install
+ 1051  brew install qemu
+ 1052  make qemu
+ 1053  brew tap riscv/riscv
+ 1054  brew install riscv-tools
+ 1055  brew install qemu
+ 1056  make qemu
+ 1057  qemu-system-riscv64 --version
+ 1058  qemu-system-riscv64 --version
+ 1059  riscv64-linux-gnu-gcc --version
+ 1060  riscv64-unknown-elf-gcc --version
+ 1061  riscv64-unknown-linux-gnu-gcc --version
+ 1062  /usr/local/opt/riscv-gnu-toolchain/bin
+ 1063  ls
+ 1064  brew install riscv-gnu-toolchain
+ 1065  make qemu
+ 1066  ls
+ 1067  brew install riscv-tools
+ 1068  brew tap riscv/riscv
+ 1069  TOOLPREFIX=riscv64-unknown-elf-
+ 1070  which riscv64-unknown-elf-gcc
+ 1071  make TOOLPREFIX=riscv64-unknown-elf-
+ 1072  make qemu
+ 1073  make TOOLPREFIX=
+ 1074  make qemu
+ 1075  make TOOLPREFIX= qemu
+ 1076  make TOOLPREFIX=qemu
+ 1077  make qemu
+ 1078  git commit -am 'my solution for util lab exercise 1'
+ 1079  make qemu
+ 1080  make TOOLPREFIX=qemu
+ 1081  make qemu
+ 1082  ls
+ 1083  nano user/usertests.c
+ 1084  make TOOLPREFIX=qemu
+ 1085  make qemu
+ 1086  nano user/echo.c
+ 1087  nano user/sleep.c
+ 1088  nano Makefile
+ 1089  make qemu
+ 1090  make GRADEFLAGS=sleep grade
+ 1091  history > worksheet1.log
+ 1092  head worksheet1.log
+ 
+ 
